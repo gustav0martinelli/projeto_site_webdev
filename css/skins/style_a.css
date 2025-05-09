@@ -1,0 +1,53 @@
+@charset "UTF - 8";
+
+/*-------------------------------------------*/
+
+/*REGRAS GLOBAIS*/
+
+@font-face 
+{
+    font-family: 'Play';
+    src: url(../font/Play-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: 'Rajdhani';
+    src: url(../font/Rajdhani-Regular.ttf);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;  
+}
+
+::before,::after
+{
+    box-sizing: border-box;
+}
+
+
+/*-----------------------------------------*/
+
+/*VARIÁVEIS*/
+
+:root {
+
+    /*Cores*/
+
+    --cor_skin1_a: #ec1839;
+
+   /*----------------------------*/
+
+   /*Fontes*/
+
+    --fonte_de_h2: 'Play';
+    --fonte_de_texto: 'Rajdhani';
+
+}
+
+/*----------------------------------------------*/
